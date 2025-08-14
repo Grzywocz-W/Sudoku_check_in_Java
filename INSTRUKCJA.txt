@@ -1,0 +1,13 @@
+INSTRUKCJA
+Program służy do sprawdzania poprawności rozwiązania klasycznego Sudoku złożonego z 81 pól.
+
+Po włączeniu programu użytkownik zostaje zapytany o plik txt w którym ma rozwiązany Sudoku, który zamierza sprawdzić. Po podaniu nazwy pliku txt program analizuje rozwiązanie i w tym samym pliku txt pod rozwiązanym Sudoku zapisuje czy w rozwiązaniu pojawiły się błędy czy nie. Jeśli błędy się pojawiły program wypisuje komunikaty, dzięki którym użytkownik może zlokalizować swoje błędy. Przy czym, ze względu na dokładną analizę przeprowadzaną przez program, możliwe jest że kilka komunikatów będzie się odnosić do jednego błędu, z tego też względu wymaga się od użytkownika aby znał zasady Sudoku i posiadał zdolność analizy wyświetlanych komunikatów.
+
+Program sprawdza za równo błędy w dużych wiersza, kolumnach jak i w małych kwadratach, wobec czego wprawionemu użytkownikowi łatwo zauważyć iż wystarczy przeanalizować komunikaty o błędach w dużych wierszach i dużych kolumnach oraz zliczyć ich ilość aby znaleźć dokładną pozycję występowania błędów.
+
+Aby dodać plik txt z rozwiązanym sudoku do sprawdzenia należy wkleić go do folderu projektu, a format zapisanych liczb w pliku txt musi być taki jak w pliku dane.txt, czyli powinno się w nim znajdować 81 liczb zapisanych w 9 wierszach po 9 liczb przy czym liczby są od siebie oddzielone spacjami.
+
+Projekt opiera się na zadaniu 5 "Sudoku" z konkursu Algorytmion z 2011r.
+
+
+Autor: Wojciech Grzywocz
